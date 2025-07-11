@@ -23,3 +23,5 @@
   	ln -s path/to/your/erwiz /usr/bin
   	
   Be sure to use the complete absolute path to erwiz.
+
+  Graphviz (dot) should be installed as per your OS.
