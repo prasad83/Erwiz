@@ -18,7 +18,7 @@
 	</target>
 
 	<target name="build-src" depends="clean-classes">
-		<javac srcdir="${src_dir}" destdir="${class_dir}" source="1.6" target="1.6" fork="true"/>
+		<javac srcdir="${src_dir}" destdir="${class_dir}" source="1.8" target="1.8" fork="true"/>
 	</target>
 
 	<target name="build-all-all-for-release" depends="clean-all,jar,htmldoc">
